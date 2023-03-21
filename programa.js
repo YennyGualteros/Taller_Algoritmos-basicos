@@ -43,3 +43,27 @@ function media (){
         return promedio;
 }
 
+function calcular_calificaciones  (a,b,c){
+    document.writeln (a*0.55);
+    document.writeln (b*0.30);
+    document.writeln (c*0.15);
+
+    console.log (a*0.55),
+    console.log (b*0.30);
+    console.log (c*0.15);
+
+    console.log (a+b+c)=calificacionfinal;
+    return calificacionfinal;
+}
+
+function calcular_tiempo(){
+    let v1= parseInt(Document.getElementById("x").value);
+    let v2= parseInt(Document.getElementById("y").value);
+    let d= parseInt(Document.getElementById("z").value);
+    let t=d/(v1+v2);
+    let tf=t*60;
+    let resultado= Document.getElementById=(resultado);
+    resultado.value= tf;
+    return tf;
+
+}
